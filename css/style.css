@@ -71,7 +71,7 @@ img {
 }
 /* ===============Components=============== */
 .backgroud-body-studio {
-  background: var(--backgroud-body-studio);
+  background-color: var(--navigation-logo-studio-footer);
 }
 .navigation-logo-link {
   font-family: var(--secondary-font);
@@ -112,6 +112,7 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 /* ===============End Components=============== */
@@ -136,7 +137,12 @@ img {
   align-items: center;
 }
 .navigation-item:not(:last-child) {
-  margin-right: 54px;
+  margin-right: 50px;
+}
+.mail-tel-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 .navigation-item .navigation-logo-link {
   margin-right: 96px;
@@ -157,8 +163,7 @@ img {
 }
 .mail-link {
   color: var(--portfolio-cards-description-color);
-  margin-left: auto;
-  margin-right: 54px;
+  margin-right: 50px;
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -182,9 +187,9 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.padding-hero {
-  padding-left: 252px;
-  padding-right: 252px;
+.hero-br {
+  width: 604px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -238,9 +243,6 @@ img {
 .types-of-product-section {
   padding-bottom: 94px;
 }
-.products-and-team-titles {
-  padding-bottom: 50px;
-}
 .types-ofproducts-list {
   display: flex;
   flex-wrap: wrap;
@@ -260,12 +262,8 @@ img {
 .our-team-section {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--backgroud-body-studio);
 }
-
-.products-and-team-titles {
-  padding-bottom: 50px;
-}
-
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
