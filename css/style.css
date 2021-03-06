@@ -201,12 +201,30 @@ img {
 /* ===============End Hero=============== */
 
 /* ===============Dignity=============== */
+
+.dignity-section {
+  padding-top: 110px;
+  padding-bottom: 94px;
+}
+.dignity-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.dignity-list-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 .dignity-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 17px;
 }
 .dignity-description {
   font-size: 14px;
@@ -217,10 +235,59 @@ img {
 /* ===============End Dignity=============== */
 
 /* ===============Types of product=============== */
+.types-of-product-section {
+  padding-bottom: 94px;
+}
+.products-and-team-titles {
+  padding-bottom: 50px;
+}
+.types-ofproducts-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.types-of-products-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
 /* ===============End Types of product=============== */
 
 /* ===============Our team=============== */
+
+.our-team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.products-and-team-titles {
+  padding-bottom: 50px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.our-team-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+
+  background: var(--navigation-logo-studio-footer);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .our-team-names {
   font-weight: 500;
@@ -228,6 +295,7 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .our-team-job {
   font-size: 16px;
@@ -236,26 +304,18 @@ img {
   letter-spacing: 0.03em;
   color: var(--portfolio-cards-description-color);
 }
-.our-team-item {
-  display: inline-block;
-  margin: 21px 15px 15px 15px;
-  border: 0px;
-  padding: 0px;
-  background: var(--navigation-logo-studio-footer);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.our-team-img {
-  margin-bottom: 10px;
-}
-.our-team-job {
-  margin-bottom: 26px;
-}
 
 /* ===============End Our team=============== */
 
 /* ===============Footer=============== */
+
+.footer-logo-margin {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-list-item:not(:last-child) {
+  margin-bottom: 6px;
+}
 .address-google-maps {
   font-family: var(--main-font);
   font-size: 14px;
@@ -277,10 +337,26 @@ img {
 }
 .footer {
   background: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* ===============End Footer=============== */
 
 /* ===============Portfolio navigation on page=============== */
+
+.navigation-on-page-and-cards-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.navigation-on-page-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.navigation-onpage-item:not(:last-child) {
+  margin-right: 8px;
+}
 .navigation-buttons {
   font-family: var(--main-font);
   font-weight: 500;
@@ -291,6 +367,12 @@ img {
   color: var(--portfolio-nav-text-color);
   border-radius: 4px;
   border: 0px;
+  display: flex;
+  align-items: center;
+  min-width: 73px;
+  margin: 0 auto;
+  padding: 6px 22px;
+  background-color: var(--backgroud-body-studio);
 }
 .navigation-buttons:hover,
 .navigation-buttons:focus {
@@ -305,13 +387,33 @@ img {
 /* ===============End Portfolio navigation on page=============== */
 
 /* ===============Portfolio cards=============== */
-
+.portfolio-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-cards-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.portfolio-cards-wraper {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  background-color: var(--navigation-logo-studio-footer);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 .portfolio-cards-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--portfolio-cards-title-color);
+  margin-bottom: 4px;
 }
 .portfolio-cards-description {
   font-size: 16px;
